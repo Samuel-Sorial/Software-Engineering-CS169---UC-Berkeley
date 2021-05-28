@@ -15,6 +15,9 @@ def max_2_sum(arr)
   return sorted_arr[0] + sorted_arr[1]
 end
 
+# Define a method sum_to_n?(array, n) that takes an array of integers and an additional integer, n, as arguments
+# and returns true if any two elements in the array of integers sum to n.
+# sum_to_n?([], n) should return false for any value of n, by definition
 def sum_to_n?(arr, n)
   return false if arr.length == 0
   combinations = arr.combination(2).to_a
