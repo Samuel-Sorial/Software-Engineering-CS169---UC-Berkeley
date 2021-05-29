@@ -9,7 +9,7 @@ end
 
 # For an empty array it should return zero. For an array with just one element, it should return that element.
 def max_2_sum(arr)
-  return 0 unless arr.length > 0
+  return 0 if arr.empty?
   return arr[0] unless arr.length > 1
   sorted_arr = arr.sort { |x, y| y <=> x }
   return sorted_arr[0] + sorted_arr[1]
