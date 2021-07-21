@@ -1,3 +1,6 @@
 [submodule "hw-sinatra-saas-hangperson"]
 	path = hw-sinatra-saas-hangperson
 	url = https://github.com/Samuel-Sorial/hw-sinatra-saas-hangperson
+[submodule "hw-rails-hangperson"]
+	path = hw-rails-hangperson
+	url = https://github.com/Samuel-Sorial/hw-rails-hangperson
